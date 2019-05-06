@@ -1,0 +1,88 @@
+.form-group {
+    margin-bottom: 15px;
+}
+
+.input-group img {
+    width: 1em;
+    height: 1em;
+}
+
+.form-group ~ textarea {
+    margin-top: -10px;
+}
+
+.control-label {
+    margin-bottom: 0;
+    user-select: none;
+}
+
+input.form-control.date {
+    border-bottom: none;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.form-control {
+    -webkit-appearance: button;
+    -webkit-appearance: none;
+}
+
+select.form-control.from {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-right: none !important;
+}
+
+select.form-control.to {
+    border-top-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-left: none !important;
+}
+
+.text-center {
+    display: block;
+    margin-top: 0.5em;
+}
+
+.panel {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.panel-body {
+    overflow-y: scroll;
+    flex: 1;
+    position: relative;
+}
+
+.panel-body {
+    box-shadow: inset 0 0 10px -2px #00000026;
+}
+
+.panel-footer {
+    display: flex;
+    align-items: center;
+}
+
+.panel-footer .price {
+    flex: 1;
+    margin: 15px;
+}
+
+.control-label small {
+    padding-left: 1.5em;
+    font-size: 80%;
+    display: block;
+    font-weight: initial;
+}
+
+input[type="number"] {
+    border-right: none;
+}
+
+input[type="number"] ~ .input-group-addon {
+    font-weight: bold;
+}

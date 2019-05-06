@@ -1,0 +1,8 @@
+nav.navigator {
+    display: flex;
+}
+
+nav.navigator div.day {
+    display: flex;
+    align-items: stretch;
+}

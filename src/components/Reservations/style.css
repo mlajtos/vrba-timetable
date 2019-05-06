@@ -1,0 +1,66 @@
+div.reservation {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 0 #00000023, 0 0 0 1px darkgrey;
+    display: flex;
+    flex-direction: column;
+    font-size: smaller;
+    margin: 3px 1px 3px 0px;
+    transition: filter 0.5s linear;
+    overflow: hidden;
+}
+
+div.reservation  div.summary {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffffff7a;
+    padding: 0.1em 0.5em;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+    font-size: 80%;
+}
+
+div.reservation div.summary div.time {
+    text-align: center;
+    font-size: 120%;
+}
+
+div.reservation div.details {
+    font-size: 120%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2em;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+div.reservation div.details div.note {
+    font-size: 80%;
+    text-align: center;
+}
+
+div.reservation div.details div.name {
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+}
+
+div.reservation div.summary div.emblem {
+    padding: 0.1em 0.2em;
+    margin: 0.1em 0.3em;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    display: inline-flex;
+    font-size: 1.2em;
+}
+
+.inline-icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: bottom;
+    margin: 0.1em;
+}

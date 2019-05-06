@@ -1,0 +1,37 @@
+html {
+    touch-action: manipulation;
+}
+
+body {
+    /*background-color: #eee;*/
+    /*overflow: hidden;*/
+    /*position: fixed;*/
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 8;
+    height: 95vh;
+}
+
+aside {
+    overflow: hidden;
+    background-color: #eee;
+    padding: 1em;
+    flex: 2;
+    margin-right: -15px;
+    height: 100vh;
+    padding-bottom: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-fluid {
+    padding: 15px;
+}
+
+.container-fluid .panel-body {
+    box-shadow: none;
+}

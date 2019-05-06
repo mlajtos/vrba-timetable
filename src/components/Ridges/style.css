@@ -1,0 +1,7 @@
+div.ridge {
+    background-color: hsla(0, 0%, 95%, 1);
+    border-radius: 2px;
+    border: 1px solid #c3c3c3;
+    margin: 2px 0;
+    box-shadow: inset 5px 5px 10px 0px #4c4c4c21;
+}
